@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>eCommerce</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper wrapper--1">
+        <div class="product-img">
+          <img src="img/cd1.jpg" height="420" width="327" />
+        </div>
+        <div class="product-info">
+          <div class="product-text">
+            <h1>WWE 2K20</h1>
+            <h2>by 2k games</h2>
+            <p>
+              WWE 2K20 will feature key gameplay improvements, streamlined
+              controls, and<br />
+              the most fun and creatively expansive entry in the franchise to
+              date. Hit the mat with 1000s <br />
+              of WWE Superstars<br />
+            </p>
+          </div>
+          <div class="product-price-btn">
+            <p><span>50</span>₱</p>
+            <button type="button" value="50" class="buy-now">buy now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper wrapper--2">
+        <div class="product-img">
+          <img src="img/cd2.jpg" height="420" width="327" />
+        </div>
+        <div class="product-info">
+          <div class="product-text">
+            <h1>UFC 3</h1>
+            <h2>by EA Sports</h2>
+            <p>
+              The most revolutionary fighting game on the planet, connecting you
+              to the real-world UFC all year round. Master the promotion and
+              performance of becoming a professional fighter, inside and outside
+              the Octagon.<br />
+            </p>
+          </div>
+          <div class="product-price-btn">
+            <p><span>60</span>₱</p>
+            <button type="button" value="60" class="buy-now">buy now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper wrapper--3">
+        <div class="product-img">
+          <img src="img/cd3.jpg" height="420" width="327" />
+        </div>
+        <div class="product-info">
+          <div class="product-text">
+            <h1>Red Dead Redemption 2</h1>
+            <h2>by rockstar</h2>
+            <p>
+              Western action-adventure game set in an open world environment and
+              played from a third-person perspective, featuring single-player
+              and online multiplayer components.<br />
+            </p>
+          </div>
+          <div class="product-price-btn">
+            <p><span>70</span>₱</p>
+            <button type="button" value="70" class="buy-now">buy now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper wrapper--4">
+        <div class="product-img">
+          <img src="img/cd4.jpg" height="420" width="327" />
+        </div>
+        <div class="product-info">
+          <div class="product-text">
+            <h1>Final Fantasy VII Remake</h1>
+            <h2>by square enix</h2>
+            <p>
+              It is the first in a planned series of games remaking the 1997
+              PlayStation game Final Fantasy VII. Set in the dystopian cyberpunk
+              metropolis of Midgar.<br />
+              <br />
+              <br />
+            </p>
+          </div>
+          <div class="product-price-btn">
+            <p><span>80</span>₱</p>
+            <button type="button" value="80" class="buy-now">buy now</button>
+          </div>
+        </div>
+      </div>
+
+      <button class="checkout" type="submit">Proceed</button>
+    </div>
+
+    <!--     <form class="payment">
+      <h2 class="items">Total: <span>0</span></h2>
+      <input type="number" id="cash-in" />
+      <label for="cash-in"></label>
+      <h3>Change <span>0</span></h3>
+    </form> -->
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">Checkout</h2>
+      <form class="modal__form">
+        <label >Total Cost</label>
+        <input disabled class="total" type="text" />
+        <label>Payment</label>
+        <input class="payment" type="number" />
+        <label ">Change</label>
+        <input disabled class="change type="text" />
+      </form>
+      <div class="checkout__container">
+        <button class="submit">&larr; Checkout</button>
+        <button class="print"">Receipt &rarr;</button>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
